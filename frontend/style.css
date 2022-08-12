@@ -23,3 +23,68 @@ header {
 #menu {
     font-size: 24px;
 }
+
+
+.books-card-container {
+
+    display: flex;
+
+    max-width: 1280px;
+
+    gap: 100px 20px;
+
+    padding: 40px;
+
+    border-width: 5px;
+    border-color:#1a24fb;
+
+
+}
+
+.book-sub {
+
+    font-family: 'Montserrat';
+    font-size: 12px;
+    letter-spacing: 00.2em;
+
+    color:#1a24fb;
+    text-transform: uppercase;
+
+}
+
+.book-title {
+
+    font-family: 'Montserrat';
+    font-size: 36px;
+    font-weight: bold;
+
+    color:#1a24fb;
+}
+
+.book-text {
+
+    font-family: 'Montserrat';
+    font-size: 16px;
+
+    color:#1a24fb;
+
+}
+
+.button-container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+
+
+
+    width: 100%;
+    height: 18px;
+
+    font-size: 14px;
+}
+
+.kurt {
+    border: 10px;
+    border-color: #1a24fb;
+}
